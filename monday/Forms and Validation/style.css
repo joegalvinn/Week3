@@ -1,0 +1,11 @@
+* {
+  background-color: darkgoldenrod;
+}
+
+/* how to select the form elements */
+/* you can select your elements with a class or id */
+
+input[type="text"] {
+  font-family: "Courier New", Courier, monospace;
+  color: aqua;
+}

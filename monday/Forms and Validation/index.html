@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+    <title>Forms and Validation</title>
+  </head>
+  <body>
+    <h1>Forms and Validation</h1>
+    <!-- basic structure of form -->
+    <!-- text boxes / checkboxes / drop-down menus -->
+    <!-- lables for our text boxes -->
+    <!-- sumbit button  -->
+    <form>
+      <label for="Username">Username</label>
+      <!-- !name attribute is the most inportant attribute in your input. the name attribute value has to match the for attribute value in label -->
+      <input type="text" name="Username" id="username-input" />
+      <label for="email">email</label>
+  
+      <input class="email" type="email" name="email" id="email" />
+      <label for="password">password</label>
+      <input class="pass-input" type="password" name="password id=" password />
+      <button type="submit"></button>
+      <select id="simple" name="simple">
+        <option>cookie</option>
+        <option selected>cake</option>
+        <option>chocolate</option>
+      </select>
+    </form>
+  </body>
+</html>
